@@ -1,0 +1,23 @@
+.skillbar {
+  margin-bottom: 10px;
+
+  &__title {
+    font-size: 100%;
+    display: inline-block;
+  }
+
+  &__percent {
+    float: right;
+  }
+
+  &__bar {
+    background-color: #ededed;
+    height: 5px;
+  }
+
+  &__child {
+    height: 100%;
+    background-color: #606060;
+    transition-property: width, background-color;
+  }
+}

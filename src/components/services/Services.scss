@@ -1,0 +1,36 @@
+.services {
+  background: #f3f4f3;
+  padding: 60px 0;
+
+  .container {
+    padding: 0 15px;
+    margin: auto;
+
+    .row {
+      margin: 0px -15px;
+
+      &__header {
+        min-height: 1px;
+        padding: 0px 15px;
+      }
+
+      &__header-text {
+        margin-bottom: 60px;
+        text-align: center;
+      }
+    }
+
+    .line-one {
+      height: 1px;
+      width: 100px;
+      background: #e91e63;
+      margin: 0 auto;
+    }
+
+    .services-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-column-gap: 1%;
+    }
+  }
+}

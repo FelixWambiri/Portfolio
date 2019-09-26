@@ -1,0 +1,21 @@
+.text-container {
+  text-align: center;
+
+  h1 {
+    color: rgba(225, 225, 225, 0.1);
+    font-size: 4rem;
+    background-image: url("../../images/light-clouds.jpg");
+    background-repeat: repeat-x;
+    -webkit-background-clip: text;
+    animation: animate 15s linear infinite;
+
+    @keyframes animate {
+      0% {
+        background-position: left 0px top 10px;
+      }
+      0% {
+        background-position: left 800px top 10px;
+      }
+    }
+  }
+}

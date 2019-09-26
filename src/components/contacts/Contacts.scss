@@ -1,0 +1,41 @@
+.contact-area {
+  padding: 60px 0;
+
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .row {
+    margin-right: -15px;
+    margin-left: -15px;
+
+    &__header {
+      min-height: 1px;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+
+    &__header-text {
+      margin-bottom: 60px;
+      text-align: center;
+
+      p {
+        display: inline-block;
+        padding: 2px;
+        margin: 5px 0;
+      }
+    }
+  }
+
+  .line-one {
+    height: 1px;
+    width: 100px;
+    background: #e91e63;
+  }
+
+  .row-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
