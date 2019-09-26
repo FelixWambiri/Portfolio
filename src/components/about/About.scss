@@ -1,0 +1,36 @@
+.about-me {
+  max-width: 1140px;
+  padding: 3% 1%;
+  height: 100vh;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-column-gap: 5%;
+  align-items: center;
+
+  &__text-header {
+    text-align: right;
+    margin-bottom: 1%;
+  }
+
+  &__text-sub-header {
+    text-align: right;
+    margin-bottom: 2%;
+  }
+
+  p {
+    text-align: right;
+    margin-bottom: 2%;
+  }
+
+  &__image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  &__skills {
+    font-size: 120%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}

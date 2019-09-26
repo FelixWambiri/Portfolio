@@ -1,0 +1,82 @@
+
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../../images/bcg1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+  .header {
+    width: 100%;
+    max-width: 1140px;
+    margin: auto;
+    padding-top: 20px;
+    position: fixed;
+    right: 0;
+    left: 0;
+
+    .logo {
+      text-transform: uppercase;
+      font-size: 3rem;
+      display: inline;
+      color: #ffffff;
+      font-weight: 800;
+    }
+
+    .main-nav {
+      float: right;
+      list-style: none;
+      margin-top: 20px;
+    }
+
+    .main-nav li {
+      display: inline-block;
+      margin-left: 40px;
+    }
+
+    .nav-item,
+    .nav-item:visited {
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 90%;
+      font-weight: bold;
+      border-bottom: 4px solid transparent;
+      transition: border-bottom 0.2s;
+    }
+
+    .active {
+      border-bottom: 4px solid #e67e22;
+    }
+
+    .nav-item:hover,
+    .nav-item:active {
+      border-bottom: 4px solid #e67e22;
+    }
+  }
+
+  .scrollBcg {
+    background: linear-gradient(to right, #0a0202bd, #0000008c);
+    height: 105px;
+    z-index: 1030;
+    max-width: 100%;
+
+    .logo {
+      padding-left: 10.5%;
+    }
+    .main-nav {
+      padding-right: 10.5%;
+    }
+  }
+
+  #curve {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+  #curve path {
+    fill: #fff;
+  }
+}

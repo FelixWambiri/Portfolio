@@ -1,0 +1,31 @@
+.item-one {
+  width: 100%;
+
+  &__single-service {
+    padding: 40px 20px;
+    margin: 0 15px 15px;
+    text-align: center;
+  }
+
+  &__service-icon {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 20px;
+    i {
+      font-size: 35%;
+      color: #e91e63;
+    }
+  }
+
+  &__service-content {
+    h3 {
+      line-height: 1.9;
+    }
+
+    p {
+      line-height: 1.8;
+    }
+  }
+}
